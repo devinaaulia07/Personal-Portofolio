@@ -8,23 +8,34 @@ In this repository there is a personal website to display my profile, skills, pr
 
 ## Pages
 - Home
-  /* "Hi, I'm Devina Aulia, a student majoring in Information Systems from M Husni Thamrin University Jakarta] Prospective UI/UX Designer Ready to Create Extraordinary Digital Experiences */
+  <TextView
+android:id="@+id/hi_i_m_devi"
+android:layout_width="857dp"
+android:layout_height="310dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="113dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="343dp"
+android:text="@string/hi_i_m_devi"
+android:textAppearance="@style/hi_i_m_devi"
+android:gravity="top"
+ />
+<!--
+Font family: Lato
+Line height: 38sp
+-->
 
-position: absolute;
-width: 857px;
-height: 310px;
-left: 113px;
-top: 343px;
+<!-- styles.xml -->
+<style name="hi_i_m_devi">
+<item name="android:textSize">70sp</item>
+<item name="android:letterSpacing">0.05</item>
+<item name="android:textColor">#000000</item>
+</style>
 
-font-family: 'Lato';
-font-style: normal;
-font-weight: 800;
-font-size: 70px;
-line-height: 84px;
-text-align: justify;
-letter-spacing: 0.05em;
-
-color: #000000;
+<!-- strings.xml -->
+<string name="hi_i_m_devi">
+"Hi, I\'m Devina Aulia, \n\na student majoring in Information Systems from \nM Husni Thamrin University Jakarta] Prospective UI/UX Designer Ready to Create Extraordinary Digital\u00c2\u00a0Experiences
+</string>
 
 
 - About
