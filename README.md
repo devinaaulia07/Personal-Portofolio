@@ -17,8 +17,6 @@ In this repository there is a personal website to display my profile, skills, pr
 
 ## Technologies Used
 - HTML
-- CSS
-
 
 ## Preview
 - [Preview](https://www.figma.com/design/vUWjx1LwjMvXRm6ozqDgfX/Portofolio-Website?m=auto&t=lZxQ1TnaarzcfD5r-6)
