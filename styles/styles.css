@@ -1,0 +1,159 @@
+/* Styling */
+
+.layout-header *{
+    margin: 1rem;
+    padding: 1rem;
+    box-sizing:border-box;
+    text-decoration:none;
+    border: none;
+    outline: none;
+    font-family:'poppins',sans-serif;
+}
+
+html{
+    font-size: 92.5%;
+}
+
+body{
+    width: 30%;
+    height: 30vh;
+    overflow-x:hidden;
+    background-color: aqua;
+    color:black;
+}
+
+header{
+    margin-top: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 6%;
+    background-color: transparent;
+    filter:drop-shadow(10px);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo{
+    font-size: 1rem;
+    color:aqua;
+    font-weight: 500;
+    cursor:pointer;
+    transition:0.3s ease;
+}
+
+.logo:hover{
+    transform:scale(5,5);
+}
+
+nav a{
+    font-size: 1rem;
+    color:rgb(6, 6, 6);
+    margin-left:2rem;
+    font-weight:200;
+    transition:0,3s ease;
+    border-bottom:3px solid transparent;
+}
+    
+nav a:horer,
+nav a.active{
+    color:aqua
+}
+
+@media(max-width:995px){
+    nav{
+        position:absolute;
+        top:100%;
+        right:0;
+        width:40%;
+        border-left: 3px solid #47bbd2;
+        border-bottom: 3px solid #47bbd2;
+        border-bottom-left-radius: 2rem;
+        padding:1rem solid;
+        background-color:black
+        border - top 0.1rem solid black
+    }
+}
+
+nav.active{
+    display: block;
+}
+
+nav a{
+    display: block;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+nav a:hover,
+nav a.active{
+    padding: 8rem;
+    border-radius: 0.5rem;
+    border-bottom: 0.5rem solid #47bbd2;
+}
+
+section{
+    min-height: 100vh;
+    padding: 1rem 6% 1rem 
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-color: black;
+}
+
+.home .home-content h1{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1rem;
+}
+
+span{
+    color: #47bbd2;
+}
+
+.home-content h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.home-img{
+    border-radius: 30%;
+}
+
+.home-img img{
+    position: relative;
+    width: 32vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px rgb(156, 224, 252);
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.home-img img:hover{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.social-icon a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    border: 0.2rem solid #47bbd2;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 1rem 1.5rem 1rem 0;
+    transition: 0.3s ease;
+    color: white;
+}
